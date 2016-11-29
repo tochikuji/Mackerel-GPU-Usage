@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use utf8;
 use feature 'say';
+use FindBin;
+use lib "$FindBin::Bin/.";
 
 use JSON::PP qw/encode_json/;
 use smi_util;

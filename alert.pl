@@ -4,6 +4,8 @@ use strict;
 use warnings;
 use utf8;
 use feature 'say';
+use FindBin;
+use lib "$FindBin::Bin/.";
 
 use List::Util qw/reduce/;
 use smi_util;
